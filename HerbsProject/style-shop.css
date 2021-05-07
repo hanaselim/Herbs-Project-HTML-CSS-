@@ -1,0 +1,87 @@
+body{
+    width:auto;
+    height: auto;
+    background-color:#FAF3F4;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a {
+    margin-top: 15px;
+    text-decoration: none;
+    padding-left: 15px;
+    float:right;
+    margin-left:40px;
+    margin-right: 40px;
+    color:green;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+.navbar ul li p i {
+    padding-left:50px;
+    float:right;
+    color:green;display:inline;
+    size: 150px;
+}
+.nothing{
+    clear: both;
+}
+.parag .one {
+    color:palevioletred;
+    text-align: center;
+    margin-top: 50px;
+    font-size: large;
+}
+.parag p i {
+    color:palevioletred;
+    float:right;
+    margin-right:420px;
+    margin-top:-53px;
+    margin-left: 15px;
+}
+.details .pic {
+    width: 50%;
+    float: left;
+    padding-top:50px;
+}
+.details .pic img{
+    opacity: 0.7;
+    width:500px;
+    margin-left: 45px;
+}
+.details .pic img:hover{
+    opacity: 1;
+    width:500px;
+    margin-left: 45px;
+}
+.details .kalam {
+    float:left;
+}
+.details  .kalam h1 {
+    margin-top: -60px;
+    margin-left:-90px;
+    color:green;
+    padding-top: 130px;
+
+}
+.details .kalam p{
+    margin-top:20px;
+    color:green;
+}
+.details .kalam button {
+    border:0px;
+    background: white;
+    margin-top: 35px;
+    padding:15px;
+    border-radius: 20px;
+    width:250px;
+    color:palevioletred;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline:0;
+}

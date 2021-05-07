@@ -1,0 +1,72 @@
+body{
+    width:auto;
+    height: auto;
+    background-image: url("elevated-view-lavender-flowers-near-dry-petals-bowl-white-surface.jpg");
+    background-size:cover;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a {
+    margin-top: 15px;
+    text-decoration: none;
+    padding-left: 15px;
+    float:right;
+    margin-left:40px;
+    margin-right: 40px;
+    color:green;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+.navbar ul li p i {
+    padding-left:50px;
+    float:right;
+    color:green;display:inline;
+    size: 150px;
+}
+.nothing{
+    clear: both;
+}
+.herb {
+    float:right;
+    text-transform: uppercase;
+    letter-spacing:25px;
+    margin-right: 100px;
+    margin-top:210px;
+}
+.herb h1::first-letter  {
+    color:palevioletred;
+}
+
+ button{
+     float:right;
+     margin-right: 130px;
+     margin-top:40px;
+     border-radius: 15px;
+     border: none;
+     cursor: pointer;
+     width:180px;
+     height: 70px;
+     background-color:none;
+     color:palevioletred;
+ }
+ .cart i{
+     float:right;
+     margin-right:10px;
+     margin-top:47px;
+     margin-left:5px;
+     color:green;
+     cursor: pointer;
+ }
+ .cart a {
+     float:right;
+     margin-right:125px;
+     margin-top:45px;
+     color:green;
+     cursor: pointer;
+     text-decoration: none;
+ }
